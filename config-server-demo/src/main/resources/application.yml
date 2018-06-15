@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: http://git.oschina.net/didispace/SpringBoot-Learning/
+          search-paths: Chapter9-1-4/config-repo
+          username:
+          password:
+server:
+    port: 8888
+#spring.cloud.config.server.git.uri：配置git仓库位置
+#spring.cloud.config.server.git.searchPaths：配置仓库路径下的相对搜索位置，可以配置多个
+#spring.cloud.config.server.git.username：访问git仓库的用户名
+#spring.cloud.config.server.git.password：访问git仓库的用户密码
+#Spring Cloud Config也提供本地存储配置的方式。
+#我们只需要设置属性spring.profiles.active=native，
+#Config Server会默认从应用的src/main/resource目录下检索配置文件。
+#也可以通过spring.cloud.config.server.native.searchLocations=file:F:/properties/属性来指定配置文件的位置

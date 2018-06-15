@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cas/cas.iml" filepath="$PROJECT_DIR$/cas/cas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client2_demo/client2_demo.iml" filepath="$PROJECT_DIR$/client2_demo/client2_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-db/config-server-db.iml" filepath="$PROJECT_DIR$/config-server-db/config-server-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-demo/config-server-demo.iml" filepath="$PROJECT_DIR$/config-server-demo/config-server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config_client_demo/config_client_demo.iml" filepath="$PROJECT_DIR$/config_client_demo/config_client_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client1-demo/eureka-client1-demo.iml" filepath="$PROJECT_DIR$/eureka-client1-demo/eureka-client1-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quartz-demo/quartz-demo.iml" filepath="$PROJECT_DIR$/quartz-demo/quartz-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" filepath="$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_demo/server_demo.iml" filepath="$PROJECT_DIR$/server_demo/server_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-demo/zuul-demo.iml" filepath="$PROJECT_DIR$/zuul-demo/zuul-demo.iml" />
+    </modules>
+  </component>
+</project>
